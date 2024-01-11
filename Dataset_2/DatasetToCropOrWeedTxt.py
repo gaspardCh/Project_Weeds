@@ -1,5 +1,3 @@
-from sahi.utils.coco import Coco, CocoCategory, CocoImage, CocoAnnotation
-from sahi.utils.file import save_json
 import csv
 from tqdm import tqdm
 import os
