@@ -12,7 +12,7 @@ folder_path = "dataset/test/"
 images_list = os.listdir(folder_path)
 
 # Chemin d'accès au modèle
-model_path = 'model_150_epochs.h5'
+model_path = 'model.h5'
 
 IMG_HEIGHT = 512
 IMG_WIDTH = 512
