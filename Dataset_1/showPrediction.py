@@ -34,7 +34,7 @@ fenetre.resizable(width=0, height=0)
 fenetre.title("Image Recognition")
 
 # Charger l'image avec la bibliothèque PIL
-image = Image.open("logo_recognition.png")
+image = Image.open(os.path.join(folder_path, images_list[0]))
 width, height = image.size
 ratio = 600 / height
 newSize = (int(width * ratio), int(height * ratio))
