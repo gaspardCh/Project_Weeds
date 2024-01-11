@@ -12,7 +12,7 @@ IMG_HEIGHT = 512
 IMG_WIDTH = 512
 
 # Charger le modèle sauvegardé
-model = keras.models.load_model('model_150_epochs.h5')
+model = keras.models.load_model('model.h5')
 actual = []
 predicted = []
 # Parcourir chaque fichier du dossier
