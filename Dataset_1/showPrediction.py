@@ -1,5 +1,4 @@
 import tkinter as tk
-from tkinter import filedialog
 import customtkinter as CTk
 from PIL import Image, ImageTk
 import os
